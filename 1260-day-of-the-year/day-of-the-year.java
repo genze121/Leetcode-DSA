@@ -8,7 +8,6 @@ class Solution {
         int day = Integer.parseInt(parts[2]);
 
         int[] dayInMonth = {31,28,31,30,31,30,31,31,30,31,30,31};
-        System.out.println(day);
         int dayOfYear = 0;
 
         for(int i=0;i<month-1;i++){
